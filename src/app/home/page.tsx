@@ -12,7 +12,7 @@ function HomePage() {
         <p className='para-two' id='rub-effect'> Frontend Developer</p>
         <br />
         <div className='link-buttons'>
-          <Link href='https://www.linkedin.com/in/alishba-naveed-a9ab38251/' target='_blank'>
+          <Link href='https://www.linkedin.com/in/alishba-naveed-a9ab38251/' target='_blank' >
             <button className='btn-one'>Linkedin</button>
           </Link>
           <Link href='https://github.com/alishba241?tab=repositories' target='_blank'>

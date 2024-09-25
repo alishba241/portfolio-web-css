@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 /*! Body styling */
@@ -44,10 +46,12 @@ body {
   border-radius: 9999px;
   transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
+.link-colo{
+  color: black;
+}
 
 .links:hover {
   background-color: white;
-  color: black;
 }
 
 /* ! responsive on laptops, tablets */
@@ -98,11 +102,13 @@ body {
 
 .hero-sec {
   display: flex;
+  width: 90%;
 }
 
 .text-sec {
   margin-top: 120px;
   color: white;
+  /* width: 1200px; */
 }
 
 .heading-one {
@@ -166,6 +172,7 @@ body {
   padding: 8px 28px 8px 28px;
   border-radius: 9999px;
   color: #20242d;
+  border: none;
   font-weight: bold;
   box-shadow: 0 1px 2px 0 rgba(0, 255, 255, 0.5);
   border-color: #0bc;
@@ -200,6 +207,7 @@ body {
     flex-direction: row;
     margin-left: 80px;
     margin-right: 80px;
+    width: 90%;
   }
   .heading-two {
     font-size: 40px;
@@ -266,9 +274,11 @@ body {
     justify-content: center;
   }
   .img-inner {
-    height: 200px;
-    width: 200px;
+    height: 290px;
+    width: 290px;
   }
+
+    
 }
 
 /* ! about page */
@@ -278,6 +288,11 @@ body {
   margin-bottom: 48px;
   padding-right: 16px;
   padding-left: 16px;
+}
+
+.main-heading-service{
+  font-size: 30px;
+  padding:30px 0 20px 0;
 }
 
 .main-heading {
@@ -294,6 +309,7 @@ body {
 
 .inner-about {
   border-width: 2px;
+  border-style: solid;
   border-color: #67e8f9 transparent #67e8f9 transparent;
   color: white;
   text-align: center;
@@ -460,6 +476,7 @@ body {
   height: 1000px;
   width: 95%;
   border-width: 2px;
+  border-style: solid;
   border-color: #67e8f9 transparent #67e8f9 transparent;
   color: white;
   text-align: center;
@@ -509,7 +526,6 @@ body {
 
 .form-input {
   width: 100%;
-  color: white;
   border-radius: 8px;
   border-width: 2px;
   border-color: transparent;
@@ -520,6 +536,9 @@ body {
 .form-input:focus {
   border-color: rgb(56, 216, 221);
   outline: none;
+}
+.form-input::placeholder{
+  color: rgb(185, 185, 185);
 }
 
 .form-textarea {
@@ -539,6 +558,10 @@ background-color: rgba(255, 255, 255, 0.2);
   outline: none;
 }
 
+.form-textarea::placeholder{
+  color: rgb(185, 185, 185);
+}
+
 .button {
   width: 100%;
   color: white;
@@ -546,6 +569,7 @@ background-color: rgba(255, 255, 255, 0.2);
   font-weight: bold;
   margin-top: 20px;
   background-image: linear-gradient(to right, #22d3ee, #3b82f6);
+  border: none;
 }
 .connect-btn {
   margin-top: 32px;
@@ -595,6 +619,7 @@ background-color: rgba(255, 255, 255, 0.2);
  border-radius: 8px;
  font-weight: bold;
  transition: all 0.3s ease;
+border: none;
 
 }
 .linkedin-btn:hover{
@@ -607,6 +632,7 @@ background-color: rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   font-weight: bold;
   transition: all 0.3s ease;
+  border: none;
 }
 .github-btn:hover{
   background-color: #1f2937;
@@ -744,6 +770,7 @@ background-color: rgba(255, 255, 255, 0.2);
 
 .link{
   transition: all 0.3s ease;
+  color: #9ca3af;
 }
 .link:hover{
   color: white;

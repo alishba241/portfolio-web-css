@@ -50,7 +50,7 @@ function AboutPage() {
 
       <div>
         <div className="services-sec">
-          <h1>My Services</h1>
+          <h1 className="main-heading-service">My Services</h1>
         </div>
         <div className="services-grid">
           <div className="service-content">
